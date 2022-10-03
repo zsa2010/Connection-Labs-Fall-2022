@@ -1,8 +1,70 @@
 body{
     background-color:rgb(193, 151, 232);
 }
+
+h1{
+    text-align: center;
+}
 .project__heading{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 100px 0;
+}
+
+.fortune-color{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 0;
+}
+.instructions{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 150px 0;
+  
+}
+
+.rollDice{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cards {
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.cards div {
+    width: 10vw;
+    height: 10vw;
+    background-color: green;
+    margin: 0 50px;
+    text-align: center; 
+}
+
+
+#c1{
+    background-color: rgb(236, 236, 99);
+}
+
+#c2{
+    background-color: rgb(245, 161, 175);
+}
+
+#c3{
+    background-color: aqua;
+}
+
+#c4{
+    background-color: coral;
+}
+
+#c5{
+    background-color: maroon;
+}
+
+#c6{
+    background-color: palegreen;
 }
