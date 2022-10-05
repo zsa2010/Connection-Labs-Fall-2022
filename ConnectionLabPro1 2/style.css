@@ -1,0 +1,156 @@
+body {
+	background-image: url();
+
+}
+
+h1 {
+	text-align: center;
+}
+.project_heading {
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 5px 0 20px 0;
+	
+}
+
+.project_heading2{
+	text-align: center;
+	margin: 50px 0 5px 0;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fortune-color {
+	text-align: center;
+	font-size: 200px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 100px 0;
+}
+.instructions {
+
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow:1; /* this make the container grow to fill the rest of the row */
+	padding-left:10px; /* this is your gap between picture and text */
+	/* height: 100vh;
+    width: 100vw;
+    position: absolute; */
+}
+
+.instructions1{
+	text-align: center;
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	margin: 20px 0 20px 0;
+
+}
+
+.rollDice {
+	text-align: center;
+	margin: 30px 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Brush Script MT';
+	height: 50px;
+	width: 200px;
+}
+
+.cards {
+	margin-top: 20px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title-instructions{
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.cards div {
+	box-shadow: 0 8px 5px 0 rgba(0, 0, 0, 0.2);
+	width: 10vw;
+	height: 10vw;
+	background-color: burlywood;
+	margin: 0 50px;
+	text-align: center;
+	
+	
+}
+
+#canvas-container {
+	display: block;
+	position: absolute;
+	width: 100vw;
+	/* height: 200vh; */
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+ .emoji-prediction{
+	margin-top: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+#freeform{
+	margin-top: 100px;
+}
+
+#emojiLink{
+	margin-top: 2px;
+	margin-bottom: 20px;
+	margin-left: 642px;
+}
+
+#freeform{
+	margin-top: 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: medium;
+}
+.instructions3{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submit-button{
+margin-left: 2px;
+	margin-top: 10px;
+	
+}
+
+#c1 {
+	background-color: rgb(220, 220, 86);
+}
+
+#c2 {
+	background-color: rgb(129, 70, 80);
+}
+
+#c3 {
+	background-color: rgb(9, 118, 118);
+}
+
+#c4 {
+	background-color: rgb(209, 71, 21);
+}
+
+#c5 {
+	background-color: rgb(96, 50, 50);
+}
+
+#c6 {
+	background-color: rgb(31, 173, 31);
+}
+
+

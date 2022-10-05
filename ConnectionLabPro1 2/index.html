@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortune Teller</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1 class="title-instructions"> Welcome to the fortune telling website! Please follow the instructions below, and determine your fortune once you're done!</h1>
+    <div id="canvas-container"></div>
+
+    <div class='container'>
+        <button class='rollDice'>Click Me to Roll Dice
+        </button>
+    </div>
+
+    <h1 class='project_heading'>Your Dice Roll Is: <span id='fortune-prediction'></span></h1>
+    <p class="instructions1"> Step 1: Please click the card with the number that matches your dice roll</p>
+
+    <section class='cards'>
+        <div class='animalCard' id='d1'>1</div>
+        <div class='animalCard' id='d2'>2</div>
+        <div class='animalCard' id='d3'>3</div>
+        <div class='animalCard' id='d4'>4</div>
+        <div class='animalCard' id='d5'>5</div>
+        <div class='animalCard' id='d6'>6</div>
+    </section>
+
+
+    <h1 class='project_heading2'>Your Animal Is: <span id='fortune-animal'></span></h1>
+
+
+
+    <p class='instructions'>
+        Step 2: Pick the color you're most drawn to: <span id='fortune-color'></span>
+
+
+        <section class='cards'>
+            <div class='colorCard' id='c1'></div>
+            <div class='colorCard' id='c2'></div>
+            <div class='colorCard' id='c3'></div>
+            <div class='colorCard' id='c4'></div>
+            <div class='colorCard' id='c5'></div>
+            <div class='colorCard' id='c6'></div>
+        </section>
+
+        <section>
+            <h1 class='emoji-prediction'> Your Emoji Is: <span id='emoji-fortune'></span></h1>
+
+
+            <img id="emojiLink" src="" alt="">
+
+
+        </section>
+
+      <section>
+        <label class= 'instructions3' for="freeform">Please write what you think your fortune means, based on these two results:</label>
+        <br>
+         <textarea id="freeform" name="freeform" rows="4" cols="50">
+        Enter text here...
+        </textarea>
+
+   
+
+      </section>
+
+      <section>
+
+        <input id="submit-button" type="submit" value="Submit">
+      </section>
+
+
+
+        <!-- <section class="project__container">
+     <h2 class="project__sub-heading"> Enter Today's Date: </h2>
+    <input id="pokemon-name"></input>
+    <button id="pokemon-button">Get Info!</button>
+</section> -->
+
+        <!-- connecting p5 to HTML  -->
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+        <!-- <script language="javascript" type="text/javascript" src="sketch.js"></script> -->
+        <script src="app.js"></script>
+</body>
+
+</html>
